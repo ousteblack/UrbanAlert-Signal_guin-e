@@ -1,0 +1,17 @@
+@reference "./global.css";
+
+.glassmorphism {
+  @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-lg;
+}
+
+.glassmorphism-dark {
+  @apply bg-slate-900/70 backdrop-blur-md border border-slate-700/50 shadow-lg;
+}
+
+.flex-center {
+  @apply flex justify-center items-center;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-light to-accent;
+}
